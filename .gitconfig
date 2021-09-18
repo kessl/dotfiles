@@ -22,7 +22,7 @@
 	ca = !git add -A && git commit -av
 
 	# Switch to a branch, creating it if necessary.
-	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
+	# go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
 
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
@@ -80,7 +80,7 @@
 
 	# Use custom `.gitignore` and `.gitattributes`.
 	excludesfile = ~/.gitignore
-	attributesfile = ~/.gitattributes
+	# attributesfile = ~/.gitattributes
 
 	# Treat spaces before tabs and all kinds of trailing whitespace as an error.
 	# [default] trailing-space: looks for spaces at the end of a line
@@ -180,4 +180,4 @@
 
 [init]
 
-	defaultBranch = main
+	defaultBranch = master
