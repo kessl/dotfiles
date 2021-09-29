@@ -1,0 +1,69 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Monokai",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "files.exclude": {
+        "node_modules": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "explorer.autoReveal": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.confirmSync": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gitlab.instanceUrl": "https://git.bankid.cz",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "emmet.showAbbreviationSuggestions": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.startupEditor": "welcomePage",
+    "emmet.showExpandedAbbreviation": "never",
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.renderControlCharacters": true,
+    "python.dataScience.textOutputLimit": 0,
+    "files.associations": {
+        "*.css": "postcss",
+        "*.ejs": "handlebars",
+        "*.graphqls": "graphql"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.configPath": ".prettierrc",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust"
+    },
+    "gitlab.ignoreCertificateErrors": true,
+    "git.allowForcePush": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editor.untitled.hint": "hidden"
+}
