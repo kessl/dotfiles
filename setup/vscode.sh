@@ -2,8 +2,8 @@
 
 # Applies VSCode settings & installs extensions
 
-cp .vscode/settings.json ~/Library/Application Support/Code/User/settings.json
-cp .vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
+cp .vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+cp .vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension bung87.rails

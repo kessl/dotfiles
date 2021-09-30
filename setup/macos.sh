@@ -7,7 +7,7 @@
 ###############################################################################
 
 HOSTNAME="0x1FD56208"
-WALLPAPER="${HOME}/init/Mondscheinlandschaft_mit_Ruine.jpg"
+WALLPAPER="Mondscheinlandschaft_mit_Ruine.jpg"
 
 ###############################################################################
 # Setup                                                                       #
@@ -132,7 +132,7 @@ sudo rm -rf /System/Library/CoreServices/DefaultDesktop.jpg
 
 mkdir "${HOME}/Pictures/Wallpapers"
 cp $WALLPAPER "${HOME}/Pictures/Wallpapers/"
-sudo ln -s "${HOME}/Pictures/Wallpapers/Mondscheinlandschaft_mit_Ruine.jpg" /System/Library/CoreServices/DefaultDesktop.jpg
+sudo ln -s "${HOME}/Pictures/Wallpapers/${WALLPAPER}" /System/Library/CoreServices/DefaultDesktop.jpg
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
@@ -655,7 +655,7 @@ tell application "Terminal"
 	(* Open the custom theme so that it gets added to the list
 	   of available terminal themes (note: this will open two
 	   additional terminal windows). *)
-	do shell script "open '$HOME/init/" & themeName & ".terminal'"
+	do shell script "open themeName & ".terminal'"
 
 	(* Wait a little bit to ensure that the custom theme is added. *)
 	delay 1
@@ -699,7 +699,7 @@ defaults write com.apple.terminal SecureKeyboardEntry -bool true
 defaults write com.apple.Terminal ShowLineMarks -int 0
 
 # Install the Solarized Dark theme for iTerm
-open "${HOME}/init/Solarized Dark.itermcolors"
+open Solarized\ Dark.itermcolors
 
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
@@ -858,7 +858,7 @@ defaults write com.irradiatedsoftware.SizeUp ShowPrefsOnNextStart -bool false
 ###############################################################################
 
 # Set up my preferred keyboard shortcuts
-cp -r init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+cp -r spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
 
 ###############################################################################
 # Transmission.app                                                            #
