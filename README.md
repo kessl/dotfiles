@@ -54,7 +54,7 @@ You could also use `~/.extra` to override settings, functions and aliases from m
 When setting up a new Mac, you may want to set some sensible MacOS defaults:
 
 ```bash
-./setup/macos.sh
+$ ./setup/macos.sh
 ```
 
 ### Install Homebrew formulae
@@ -62,17 +62,39 @@ When setting up a new Mac, you may want to set some sensible MacOS defaults:
 When setting up a new Mac, you may want to install some common [Homebrew](https://brew.sh/) formulae (after installing Homebrew, of course):
 
 ```bash
-./setup/brew.sh
+$ ./setup/brew.sh
 ```
 
 Some of the functionality of these dotfiles depends on formulae installed by `brew.sh`. If you don’t plan to run `brew.sh`, you should look carefully through the script and manually install any particularly important ones. A good example is Bash/Git completion: the dotfiles use a special version from Homebrew.
+
+### Secrets
+
+To encrypt secrets, place them in `setup/secrets/` and create a tarball:
+
+```bash
+$ tar czf secrets.tar.gz secrets/
+```
+
+Encrypt using GPG:
+
+```bash
+$ gpg --encrypt --recipient your@email secrets.tar.gz
+```
+
+I prefer to keep all secrets in `~/.secrets` and symlink them to their original locations. Edit `secrets.sh` to symlink/copy all your secrets.
+
+Back up your private key to a password manager! To restore your secrets:
+
+```bash
+$ ./setup/secrets.sh
+```
 
 ### VSCode settings
 
 When setting up a new Mac, you may want to set up VSCode settings:
 
 ```bash
-./setup/vscode.sh
+$ ./setup/vscode.sh
 ```
 
 ### Mount shares
@@ -80,7 +102,7 @@ When setting up a new Mac, you may want to set up VSCode settings:
 When setting up a new Mac, you may want to mount some remote shares:
 
 ```bash
-./setup/mount.sh
+$ ./setup/mount.sh
 ```
 
 ## Thanks to…
