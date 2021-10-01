@@ -181,3 +181,15 @@
 [init]
 
 	defaultBranch = master
+
+[credential]
+
+	helper = osxkeychain
+
+[gpg]
+
+	program = gpg
+
+[pull]
+
+	ff = only
