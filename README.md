@@ -2,7 +2,7 @@
 
 Based on the awesome [Mathias's dotfiles](https://github.com/mathiasbynens/dotfiles).
 
-![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
+![Screenshot of my shell prompt](https://bitgate.cz/prompt.png)
 
 ## Installation
 
