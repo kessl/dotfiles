@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-# Install command-line tools using Homebrew.
+# Install Homebrew & command-line tools & casks
+xcode-select --install
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -105,11 +107,14 @@ brew install youtube-dl
 # DK's casks
 brew cask install 1password
 brew cask install appcleaner
+brew cask install datovka
 brew cask install docker
 brew cask install firefox
 brew cask install firefox-developer-edition
+brew cask install free-download-manager
 brew cask install google-chrome
 brew cask install iterm2
+brew cask install mounty
 brew cask install onedrive
 brew cask install postman
 brew cask install signal
