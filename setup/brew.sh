@@ -118,6 +118,7 @@ brew cask install firefox
 brew cask install firefox-developer-edition
 brew cask install free-download-manager
 brew cask install google-chrome
+brew cask install haptickey
 brew cask install iterm2
 brew cask install mounty
 brew cask install onedrive
