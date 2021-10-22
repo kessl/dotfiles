@@ -1,17 +1,22 @@
 #!/usr/bin/env bash
 
+set -e
+
 # Install Homebrew & command-line tools & casks
 xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Save Homebrew’s installed location.
+BREW_PREFIX=$(brew --prefix)
+
+echo "eval \"\$(${HOMEBREW_PREFIX}/bin/brew shellenv)\"" >> ~/.bash_profile
+eval "\$(${HOMEBREW_PREFIX}/bin/brew shellenv)"
 
 # Make sure we’re using the latest Homebrew.
 brew update
 
 # Upgrade any already-installed formulae.
 brew upgrade
-
-# Save Homebrew’s installed location.
-BREW_PREFIX=$(brew --prefix)
 
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
