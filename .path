@@ -1,0 +1,2 @@
+# use to add locations to $PATH
+# export PATH="/usr/local/bin:$PATH"
