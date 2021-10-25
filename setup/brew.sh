@@ -116,28 +116,28 @@ brew install yarn
 brew install youtube-dl
 
 # DK's casks
-brew cask install 1password
-brew cask install appcleaner
-brew cask install datovka
-brew cask install docker
-brew cask install firefox
-brew cask install firefox-developer-edition
-brew cask install free-download-manager
-brew cask install google-chrome
-brew cask install haptickey
-brew cask install iterm2
-brew cask install mounty
-brew cask install onedrive
-brew cask install postman
-brew cask install signal
-brew cask install slack
-brew cask install spectacle
-brew cask install spotify
-brew cask install suspicious-package
-brew cask install the-unarchiver
-brew cask install unnaturalscrollwheels
-brew cask install visual-studio-code
-brew cask install vlc
+brew install --cask 1password
+brew install --cask appcleaner
+brew install --cask datovka
+brew install --cask docker
+brew install --cask firefox
+brew install --cask firefox-developer-edition
+brew install --cask free-download-manager
+brew install --cask google-chrome
+brew install --cask haptickey
+brew install --cask iterm2
+brew install --cask mounty
+brew install --cask onedrive
+brew install --cask postman
+brew install --cask signal
+brew install --cask slack
+brew install --cask spectacle
+brew install --cask spotify
+brew install --cask suspicious-package
+brew install --cask the-unarchiver
+brew install --cask unnaturalscrollwheels
+brew install --cask visual-studio-code
+brew install --cask vlc
 
 # Remove outdated versions from the cellar.
 brew cleanup
