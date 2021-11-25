@@ -117,14 +117,18 @@ brew install youtube-dl
 
 # DK's casks
 brew install --cask 1password
+brew install --cask aldente
 brew install --cask appcleaner
+brew install --cask balance-lock
 brew install --cask datovka
+brew install --cask discord
 brew install --cask docker
 brew install --cask firefox
 brew install --cask firefox-developer-edition
 brew install --cask free-download-manager
 brew install --cask google-chrome
 brew install --cask haptickey
+brew install --cask hiddenbar
 brew install --cask iterm2
 brew install --cask mounty
 brew install --cask onedrive
