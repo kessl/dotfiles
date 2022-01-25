@@ -123,6 +123,7 @@ brew install --cask balance-lock
 brew install --cask datovka
 brew install --cask discord
 brew install --cask docker
+brew install --cask finicky
 brew install --cask firefox
 brew install --cask firefox-developer-edition
 brew install --cask free-download-manager
