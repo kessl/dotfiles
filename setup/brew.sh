@@ -111,6 +111,7 @@ brew install tree
 # brew install zopfli
 
 # DK's additional utilites
+brew install jo
 brew install jq
 brew install yarn
 brew install youtube-dl
