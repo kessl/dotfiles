@@ -111,8 +111,10 @@ brew install tree
 # brew install zopfli
 
 # DK's additional utilites
+brew install blueutil
 brew install jo
 brew install jq
+brew install sleepwatcher
 brew install yarn
 brew install youtube-dl
 
