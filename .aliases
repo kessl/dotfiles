@@ -142,3 +142,19 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Change RBENV_VERSION if the ruby version in the IAC repo changes
+alias swarm="RBENV_VERSION=$(cat $HOME/dev/betterstack/infrastructure-as-code/.ruby-version) $HOME/dev/betterstack/infrastructure-as-code/exe/swarm"
+
+# Teleport login
+alias tl="tsh login --proxy=better-stack.teleport.sh --auth=google"
+
+# Teleport SSH
+function tssh() { tsh ssh "root@$1"; }
+
+# Swarm shortcuts
+alias d="swarm deploy"
+alias pd="swarm production deploy"
+alias c="swarm run rails c"
+alias pc="swarm production run rails c"
+
