@@ -134,7 +134,6 @@ brew install --cask google-chrome
 brew install --cask haptickey
 brew install --cask hiddenbar
 brew install --cask hyperkey
-brew install --cask iterm2
 brew install --cask marta
 brew install --cask mounty
 brew install --cask onedrive
