@@ -655,6 +655,11 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
+# Increase duration of floating screenshot thumbnails
+defaults write com.apple.screencaptureui "thumbnailExpiration" -float 30
+
+killall SystemUIServer
+
 ###############################################################################
 # GPGMail 2                                                                   #
 ###############################################################################
