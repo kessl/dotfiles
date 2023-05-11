@@ -134,10 +134,9 @@ brew install --cask google-chrome
 brew install --cask haptickey
 brew install --cask hiddenbar
 brew install --cask hyperkey
-brew install --cask marta
+brew install --cask lulu
 brew install --cask mounty
 brew install --cask onedrive
-brew install --cask postman
 brew install --cask signal
 brew install --cask slack
 brew install --cask spectacle
