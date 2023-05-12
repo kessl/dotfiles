@@ -78,6 +78,15 @@ brew install postgresql
 brew install puma-dev
 brew install redis
 
+# Install ruby, node & python
+brew install anyenv
+anyenv init
+exec $SHELL -l
+anyenv install --init
+anyenv install rbenv
+anyenv install nodenv
+anyenv install pyenv
+
 # Install apps
 brew install --cask 1password
 brew install --cask aldente
