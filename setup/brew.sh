@@ -57,12 +57,11 @@ echo "export PATH=$(brew --prefix vim)/bin:\$PATH" >> ~/.path
 
 # Install useful binaries
 brew install ack
-brew install blueutil
+brew install bluesnooze
 brew install grep
 brew install nmap
 brew install openssh
 brew install rclone
-brew install sleepwatcher
 brew install ssh-copy-id
 brew install tree
 brew install yt-dlp
