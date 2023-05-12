@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 set -e
 
 # Install Homebrew & command-line tools & casks
@@ -48,77 +47,38 @@ brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
+brew install pinentry-mac
+echo "pinentry-program $(which pinentry-mac)" >> ~/.gnupg/gpg-agent.conf
+killall gpg-agent
 
 # Install more recent versions of some macOS tools.
 brew install vim
 echo "export PATH=$(brew --prefix vim)/bin:\$PATH" >> ~/.path
 
-brew install grep
-brew install openssh
-# brew install screen
-# brew install php
-# brew install gmp
-
-# Install font tools.
-# brew tap bramstein/webfonttools
-# brew install sfnt2woff
-# brew install sfnt2woff-zopfli
-# brew install woff2
-
-# Install some CTF tools; see https://github.com/ctfs/write-ups.
-# brew install aircrack-ng
-# brew install bfg
-brew install binutils
-brew install binwalk
-# brew install cifer
-# brew install dex2jar
-# brew install dns2tcp
-# brew install fcrackzip
-# brew install foremost
-# brew install hashpump
-# brew install hydra
-# brew install john
-# brew install knock
-# brew install netpbm
-brew install nmap
-# brew install pngcheck
-# brew install socat
-# brew install sqlmap
-# brew install tcpflow
-# brew install tcpreplay
-# brew install tcptrace
-# brew install ucspi-tcp # `tcpserver` etc.
-# brew install xpdf
-# brew install xz
-
-# Install other useful binaries.
+# Install useful binaries
 brew install ack
-#brew install exiv2
-brew install git
-brew install git-lfs
-# brew install gs
-# brew install imagemagick --with-webp
-# brew install lua
-# brew install lynx
-# brew install p7zip
-# brew install pigz
-# brew install pv
-# brew install rename
-# brew install rlwrap
+brew install blueutil
+brew install grep
+brew install nmap
+brew install openssh
+brew install rclone
+brew install sleepwatcher
 brew install ssh-copy-id
 brew install tree
-# brew install vbindiff
-# brew install zopfli
+brew install yt-dlp
 
-# DK's additional utilites
-brew install blueutil
+# Install dev tools
+brew install foreman
+brew install git
+brew install git-lfs
 brew install jo
 brew install jq
-brew install sleepwatcher
-brew install yarn
-brew install youtube-dl
+brew install pgcli
+brew install postgresql
+brew install puma-dev
+brew install redis
 
-# DK's casks
+# Install apps
 brew install --cask 1password
 brew install --cask aldente
 brew install --cask appcleaner
@@ -134,9 +94,11 @@ brew install --cask google-chrome
 brew install --cask haptickey
 brew install --cask hiddenbar
 brew install --cask hyperkey
+brew install --cask imageoptim
 brew install --cask lulu
 brew install --cask mounty
 brew install --cask onedrive
+brew install --cask rubymine
 brew install --cask signal
 brew install --cask slack
 brew install --cask spectacle
