@@ -72,6 +72,7 @@ brew install git
 brew install git-lfs
 brew install jo
 brew install jq
+brew install llvm
 brew install pgcli
 brew install postgresql
 brew install puma-dev
