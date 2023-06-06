@@ -59,6 +59,7 @@ echo "export PATH=$(brew --prefix vim)/bin:\$PATH" >> ~/.path
 brew install ack
 brew install bluesnooze
 brew install grep
+brew install inetutils
 brew install nmap
 brew install openssh
 brew install rclone
