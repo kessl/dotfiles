@@ -66,6 +66,12 @@
 	# Show the user email for the current repository.
 	whoami = config user.email
 
+  rc = rebase --continue
+	mc = merge --continue
+
+  # switch to default branch; pull; create new branch
+  n = "!f() { git switch main || git switch master; git pull; git switch -c $1; }; f"
+
 [apply]
 
 	# Detect whitespace errors when applying a patch.
