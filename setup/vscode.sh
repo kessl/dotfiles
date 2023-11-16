@@ -18,11 +18,8 @@ code --install-extension EditorConfig.EditorConfig
 code --install-extension esbenp.prettier-vscode
 code --install-extension firefox-devtools.vscode-firefox-debug
 code --install-extension formulahendry.auto-rename-tag
-code --install-extension GitLab.gitlab-workflow
-code --install-extension GraphQL.vscode-graphql
 code --install-extension Gruntfuggly.todo-tree
 code --install-extension hashicorp.terraform
-code --install-extension mrorz.language-gettext
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension panicbit.cargo

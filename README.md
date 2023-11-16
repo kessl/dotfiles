@@ -10,7 +10,7 @@ Based on the awesome [Mathias's dotfiles](https://github.com/mathiasbynens/dotfi
 
 ### Using Git and the bootstrap script
 
-You can clone the repository wherever you want. (I like to keep it in `~/dev/personal/dotfiles`.) The bootstrapper script will pull in the latest version and copy dotfiles to your home folder. If you're settings
+You can clone the repository wherever you want. (I like to keep it in `~/dev/personal/dotfiles`.) The bootstrapper script will pull in the latest version and copy dotfiles to your home folder.
 
 ```bash
 git clone https://github.com/kessl/dotfiles.git && cd dotfiles && source bootstrap.sh
