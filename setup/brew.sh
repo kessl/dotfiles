@@ -113,6 +113,7 @@ brew install --cask signal
 brew install --cask slack
 brew install --cask spectacle
 brew install --cask spotify
+brew install --cask stats
 brew install --cask suspicious-package
 brew install --cask the-unarchiver
 brew install --cask unnaturalscrollwheels
