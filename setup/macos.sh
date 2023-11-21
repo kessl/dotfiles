@@ -672,7 +672,7 @@ defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault
 ###############################################################################
 
 # Set up my preferred keyboard shortcuts
-cp -r spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+cp -r RectangleConfig.json ~/Library/Application\ Support/Rectangle/RectangleConfig.json 2> /dev/null
 
 ###############################################################################
 # Kill affected applications                                                  #

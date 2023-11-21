@@ -108,10 +108,10 @@ brew install --cask imageoptim
 brew install --cask lulu
 brew install --cask mounty
 brew install --cask onedrive
+brew install --cask rectangle
 brew install --cask rubymine
 brew install --cask signal
 brew install --cask slack
-brew install --cask spectacle
 brew install --cask spotify
 brew install --cask stats
 brew install --cask suspicious-package
